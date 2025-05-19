@@ -9,11 +9,11 @@ st.set_page_config(page_title="Tüdőrák kockázat becslő", layout="centered")
 st.title("🫁 Tüdőrák kockázat becslő alkalmazás")
 st.write("Add meg az alábbi adatokat, és megtippeljük a tüdőrák kockázatát.")
 
-st.header("Alapadatok")
+st.header("🧍 Alapadatok")
 age = st.number_input("Kor", min_value=10, max_value=120, step=1, value=50)
 gender = st.selectbox("Mi a nemed?", ["Férfi", "Nő"])
 
-st.header("Életmód és környezeti tényezők")
+st.header("🚶‍♂️ Életmód és környezeti tényezők")
 smoking = st.selectbox("Szoktál dohányozni?", ["Nem", "Igen"])
 alcohol = st.selectbox("Fogyasztasz rendszeresen alkoholt?", ["Nem", "Igen"])
 pollution = st.selectbox("Élsz vagy dolgozol erősen szennyezett levegőjű környezetben?", ["Nem", "Igen"])
